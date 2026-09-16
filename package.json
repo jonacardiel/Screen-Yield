@@ -1,0 +1,22 @@
+{
+  "name": "screen-yield",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A cinema revenue-management platform: interactive seat maps, a demand-based dynamic pricing engine, and honest counterfactual reporting on what that pricing actually costs occupancy.",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/web",
+    "dev:api": "npm run dev --workspace=apps/api",
+    "build": "npm run build --workspaces --if-present",
+    "build:web": "npm run build --workspace=@screen-yield/pricing && npm run build --workspace=@screen-yield/schema && npm run build --workspace=@screen-yield/web",
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

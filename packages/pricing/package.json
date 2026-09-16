@@ -1,0 +1,26 @@
+{
+  "name": "@screen-yield/pricing",
+  "version": "0.1.0",
+  "description": "Pure, isomorphic demand-based pricing engine. Zero runtime dependencies. Runs identically in the browser and on the server so a quoted price and a charged price can never diverge.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0",
+    "fast-check": "^4.1.0"
+  }
+}

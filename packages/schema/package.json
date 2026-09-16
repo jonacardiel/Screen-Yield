@@ -1,0 +1,28 @@
+{
+  "name": "@screen-yield/schema",
+  "version": "0.1.0",
+  "description": "Shared zod schemas for auditorium layouts, showtimes, and seats — the API and the web app import types from here so their data shapes cannot drift apart.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.24.0",
+    "@screen-yield/pricing": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  }
+}

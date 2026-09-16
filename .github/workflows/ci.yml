@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+      - run: npm ci
+      # Build order matters: pricing has no workspace deps, schema depends on pricing,
+      # everything else depends on both — npm workspaces won't infer this for us.
+      - run: npm run build --workspace=@screen-yield/pricing
+      - run: npm run build --workspace=@screen-yield/schema
+      - run: npm run typecheck --workspaces --if-present
+      - run: npm run test --workspaces --if-present
+      - name: Validate authored auditorium layouts
+        run: npm run validate --workspace=@screen-yield/layouts

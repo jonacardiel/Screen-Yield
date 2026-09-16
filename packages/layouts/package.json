@@ -1,0 +1,17 @@
+{
+  "name": "@screen-yield/layouts",
+  "version": "0.1.0",
+  "description": "Hand-authored fictional auditorium layouts for Meridian Cinemas, plus the generator/validator scripts used to build them.",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./hall-01": "./meridian-downtown/hall-01.json"
+  },
+  "scripts": {
+    "generate": "node generate-hall.mjs",
+    "validate": "node validate.mjs"
+  },
+  "dependencies": {
+    "@screen-yield/schema": "*"
+  }
+}

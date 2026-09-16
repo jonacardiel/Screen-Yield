@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+  --zone-standard: #64748b; /* slate */
+  --zone-premium: #6366f1; /* indigo */
+  --zone-recliner: #d946ef; /* fuchsia — the priciest tier gets the warmest color */
+  --seat-sold: #27272a;
+  --seat-selected: #22c55e;
+}
+
+body {
+  background: #0b0d12;
+  color: #e5e7eb;
+}
