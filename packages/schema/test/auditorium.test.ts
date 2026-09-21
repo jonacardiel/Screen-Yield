@@ -8,7 +8,15 @@ function minimalLayout(overrides: Record<string, unknown> = {}) {
     format: "STANDARD",
     screen: { widthUnits: 30, curve: 0.1 },
     rows: [
-      { label: "A", y: 0, zone: "STANDARD", seats: [{ n: 1, x: 0 }, { n: 2, x: 1 }] },
+      {
+        label: "A",
+        y: 0,
+        zone: "STANDARD",
+        seats: [
+          { n: 1, x: 0 },
+          { n: 2, x: 1 },
+        ],
+      },
       { label: "B", y: 1, zone: "PREMIUM", seats: [{ n: 1, x: 0, kind: "ACCESSIBLE" }] },
     ],
     ...overrides,

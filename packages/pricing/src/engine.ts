@@ -71,7 +71,7 @@ export function price(ctx: PriceContext): PriceBreakdown {
 
   const dayOfWeek = ((Math.trunc(ctx.dayOfWeek) % 7) + 7) % 7; // tolerate stray negative/out-of-range input
   const slot = classifySlot(ctx.localHour);
-  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion -- dayOfWeek is folded into 0..6 above
+  // dayOfWeek is folded into 0..6 above, so this index is always in range
   const dowSlotMult = DOW_SLOT_MULT[dayOfWeek]![slot];
 
   const velocityExcess = clamp(ctx.demandVelocityRatio - 1, 0, VELOCITY_RATIO_CLAMP_MAX);

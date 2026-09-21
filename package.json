@@ -2,7 +2,23 @@
   "name": "screen-yield",
   "private": true,
   "version": "0.1.0",
+  "type": "module",
   "description": "A cinema revenue-management platform: interactive seat maps, a demand-based dynamic pricing engine, and honest counterfactual reporting on what that pricing actually costs occupancy.",
+  "keywords": [
+    "dynamic-pricing",
+    "revenue-management",
+    "typescript",
+    "react",
+    "zod",
+    "monorepo",
+    "vite",
+    "tailwindcss"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonacardiel/Screen-Yield.git"
+  },
+  "author": "jonacardiel",
   "workspaces": [
     "packages/*",
     "apps/*"
@@ -13,10 +29,24 @@
     "build": "npm run build --workspaces --if-present",
     "build:web": "npm run build --workspace=@screen-yield/pricing && npm run build --workspace=@screen-yield/schema && npm run build --workspace=@screen-yield/web",
     "test": "npm run test --workspaces --if-present",
-    "typecheck": "npm run typecheck --workspaces --if-present"
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "engines": {
     "node": ">=20"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "eslint": "^9.39.5",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "globals": "^17.12.0",
+    "prettier": "^3.9.8",
+    "typescript-eslint": "^8.70.1"
+  }
 }

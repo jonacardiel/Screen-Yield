@@ -19,6 +19,13 @@ jobs:
       - run: npm run build --workspace=@screen-yield/pricing
       - run: npm run build --workspace=@screen-yield/schema
       - run: npm run typecheck --workspaces --if-present
+      # Runs after the pricing/schema builds above — type-aware lint rules need to resolve
+      # cross-workspace imports (apps/web -> @screen-yield/pricing etc.) through their built
+      # dist/ output, same as typecheck does.
+      - run: npm run lint
+      - run: npm run format:check
       - run: npm run test --workspaces --if-present
       - name: Validate authored auditorium layouts
         run: npm run validate --workspace=@screen-yield/layouts
+      - name: Fail if the TMDB snapshot is stale (their terms forbid caching past 6 months)
+        run: node .github/scripts/check-snapshot-staleness.mjs

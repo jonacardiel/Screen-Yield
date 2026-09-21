@@ -1,0 +1,6 @@
+**/dist/**
+**/node_modules/**
+packages/snapshot/**
+packages/layouts/*/*.json
+.vercel/**
+package-lock.json
