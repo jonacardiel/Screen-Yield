@@ -20,7 +20,10 @@ interface SeatMapProps {
   screen: Screen;
   priceForSeat: (seat: FlatSeat) => number;
   isSold: (seatId: string) => boolean;
-  selectedSeatId: string | null;
+  /** The one seat currently held or booked (this app models a single hold slot, not a cart). */
+  heldSeatId: string | null;
+  /** True when `heldSeatId` is a confirmed booking rather than a still-counting-down hold. */
+  isHeldSeatBooked: boolean;
   onSelectSeat: (seatId: string) => void;
 }
 
@@ -35,7 +38,8 @@ export function SeatMap({
   screen,
   priceForSeat,
   isSold,
-  selectedSeatId,
+  heldSeatId,
+  isHeldSeatBooked,
   onSelectSeat,
 }: SeatMapProps) {
   const svgRef = useRef<SVGSVGElement>(null);
@@ -69,8 +73,10 @@ export function SeatMap({
   }, [seats]);
 
   const viewBox = `${bounds.minX} ${bounds.minY} ${bounds.maxX - bounds.minX} ${bounds.maxY - bounds.minY}`;
+  const screenCenterX = (bounds.minX + bounds.maxX) / 2;
   const screenHalfWidth = screen.widthUnits / 2;
   const screenSag = 1.5 * screen.curve; // how far the arc dips down at center
+  const screenY = -2.4; // clears row A (top edge at -SEAT_H/2) instead of sitting on top of it
 
   function seatAt(id: string): FlatSeat | undefined {
     return seats.find((s) => s.seatId === id);
@@ -109,6 +115,7 @@ export function SeatMap({
 
   function handleActivate(seatId: string) {
     if (isSold(seatId)) return;
+    if (seatId === heldSeatId && isHeldSeatBooked) return; // a confirmed booking is inert
     onSelectSeat(seatId);
   }
 
@@ -174,19 +181,35 @@ export function SeatMap({
       onClick={handleClick}
       onKeyDown={handleKeyDown}
     >
+      <defs>
+        <radialGradient id="screen-glow" cx="50%" cy="0%" r="75%">
+          <stop offset="0%" stopColor="var(--color-surge-cyan)" stopOpacity="0.08" />
+          <stop offset="60%" stopColor="var(--color-surge-cyan)" stopOpacity="0.02" />
+          <stop offset="100%" stopColor="var(--color-surge-cyan)" stopOpacity="0" />
+        </radialGradient>
+      </defs>
+      <rect
+        x={bounds.minX}
+        y={bounds.minY}
+        width={bounds.maxX - bounds.minX}
+        height={(bounds.maxY - bounds.minY) * 0.5}
+        fill="url(#screen-glow)"
+        aria-hidden="true"
+        style={{ pointerEvents: "none" }}
+      />
       <path
-        d={`M ${-screenHalfWidth} 0 Q 0 ${screenSag} ${screenHalfWidth} 0`}
-        stroke="#4b5563"
+        d={`M ${screenCenterX - screenHalfWidth} ${screenY} Q ${screenCenterX} ${screenY + screenSag} ${screenCenterX + screenHalfWidth} ${screenY}`}
+        stroke="var(--seatmap-screen-arc)"
         strokeWidth={0.15}
         fill="none"
         aria-hidden="true"
       />
       <text
-        x={0}
-        y={-1.2}
+        x={screenCenterX}
+        y={screenY - 1}
         textAnchor="middle"
         fontSize={0.9}
-        fill="#6b7280"
+        fill="var(--seatmap-screen-text)"
         aria-hidden="true"
       >
         SCREEN
@@ -194,36 +217,89 @@ export function SeatMap({
 
       {rows.map((row) => (
         <g key={row.label} role="row" aria-label={`Row ${row.label}`}>
-          <text x={row.seats[0]!.x - SEAT_W} y={row.y + SEAT_H * 0.75} fontSize={0.9} fill="#9ca3af">
+          <text
+            x={row.seats[0]!.x - SEAT_W}
+            y={row.y + SEAT_H * 0.75}
+            fontSize={0.9}
+            fill="var(--seatmap-row-label)"
+          >
             {row.label}
           </text>
           {row.seats.map((seat) => {
             const sold = isSold(seat.seatId);
-            const selected = seat.seatId === selectedSeatId;
+            const isHeld = seat.seatId === heldSeatId;
+            const booked = isHeld && isHeldSeatBooked;
+            const held = isHeld && !isHeldSeatBooked;
             const priceCents = priceForSeat(seat);
+            const statusLabel = sold
+              ? "sold"
+              : booked
+                ? "booked, confirmed"
+                : held
+                  ? "held, expires soon"
+                  : formatUsd(priceCents);
             const label = `Row ${seat.rowLabel} seat ${seat.seatNumber}, ${seat.zone.toLowerCase()}${
               seat.kind ? `, ${seat.kind.toLowerCase()}` : ""
-            }, ${sold ? "sold" : formatUsd(priceCents)}`;
+            }, ${statusLabel}`;
             return (
-              <rect
-                key={seat.seatId}
-                data-seat-id={seat.seatId}
-                role="gridcell"
-                tabIndex={seat.seatId === focusedSeatId ? 0 : -1}
-                aria-label={label}
-                aria-selected={selected}
-                aria-disabled={sold}
-                x={seat.x - SEAT_W / 2}
-                y={seat.y - SEAT_H / 2}
-                width={SEAT_W}
-                height={SEAT_H}
-                rx={0.25}
-                fill={sold ? "var(--seat-sold)" : selected ? "var(--seat-selected)" : ZONE_COLOR[seat.zone]}
-                stroke={seat.seatId === focusedSeatId ? "#f9fafb" : "transparent"}
-                strokeWidth={0.12}
-                opacity={sold ? 0.5 : 1}
-                style={{ cursor: sold ? "not-allowed" : "pointer" }}
-              />
+              <g key={seat.seatId}>
+                <rect
+                  data-seat-id={seat.seatId}
+                  role="gridcell"
+                  tabIndex={seat.seatId === focusedSeatId ? 0 : -1}
+                  aria-label={label}
+                  aria-selected={isHeld}
+                  aria-disabled={sold || booked}
+                  x={seat.x - SEAT_W / 2}
+                  y={seat.y - SEAT_H / 2}
+                  width={SEAT_W}
+                  height={SEAT_H}
+                  rx={0.25}
+                  fill={
+                    sold
+                      ? "var(--seat-sold)"
+                      : booked
+                        ? "var(--seat-selected)"
+                        : held
+                          ? "var(--seat-held)"
+                          : ZONE_COLOR[seat.zone]
+                  }
+                  stroke={
+                    seat.seatId === focusedSeatId ? "var(--seatmap-focus-ring)" : "transparent"
+                  }
+                  strokeWidth={0.12}
+                  opacity={sold ? 0.5 : 1}
+                  style={{
+                    cursor: sold || booked ? "not-allowed" : "pointer",
+                    transition:
+                      "fill 150ms ease-out, opacity 150ms ease-out, filter 150ms ease-out",
+                    animation: held ? "seat-pulse 1.5s ease-in-out infinite" : undefined,
+                  }}
+                  onMouseEnter={(e) => {
+                    if (!sold && !booked) {
+                      e.currentTarget.style.filter = "brightness(1.15)";
+                    }
+                  }}
+                  onMouseLeave={(e) => {
+                    if (!sold && !booked) {
+                      e.currentTarget.style.filter = "brightness(1)";
+                    }
+                  }}
+                />
+                {booked && (
+                  <text
+                    x={seat.x}
+                    y={seat.y + SEAT_H * 0.28}
+                    textAnchor="middle"
+                    fontSize={0.9}
+                    fill="var(--color-surge-bg)"
+                    aria-hidden="true"
+                    style={{ pointerEvents: "none" }}
+                  >
+                    ✓
+                  </text>
+                )}
+              </g>
             );
           })}
         </g>

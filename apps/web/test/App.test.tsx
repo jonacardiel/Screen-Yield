@@ -1,17 +1,28 @@
 import { render, screen } from "@testing-library/react";
-import { describe, expect, it } from "vitest";
-import App from "../src/App";
+import { describe, expect, it, vi } from "vitest";
 
-describe("App", () => {
-  it("renders the hall name and every seat in the layout", () => {
-    render(<App />);
-    expect(screen.getByText(/Hall 1 — IMAX/)).toBeTruthy();
-    // 154 seats authored in packages/layouts/meridian-downtown/hall-01.json
-    expect(document.querySelectorAll('rect[role="gridcell"]')).toHaveLength(154);
-  });
+// Explicitly mocked to an empty snapshot rather than relying on packages/snapshot's real
+// on-disk state (which a local `npm run ingest` run mutates) — this exercises the "zero
+// data" path deterministically, independent of whatever the checkout currently holds.
+vi.mock("@screen-yield/snapshot/films", () => ({ default: [] }));
+vi.mock("@screen-yield/snapshot/showtimes", () => ({ default: [] }));
+vi.mock("@screen-yield/snapshot/meta", () => ({
+  default: {
+    generatedAt: new Date().toISOString(),
+    tmdbAttribution:
+      "This product uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB.",
+    filmCount: 0,
+    showtimeCount: 0,
+  },
+}));
 
-  it("shows the price-breakdown placeholder before any seat is selected", () => {
+const { default: App } = await import("../src/App");
+
+describe("App — empty snapshot", () => {
+  it("shows the empty-snapshot guidance instead of crashing or rendering a fake showtime", () => {
+    history.pushState(null, "", "/");
     render(<App />);
-    expect(screen.getByText(/Select a seat to see exactly how its price was calculated/)).toBeTruthy();
+    expect(screen.getByText(/No upcoming showtimes in the snapshot/)).toBeTruthy();
+    expect(screen.getByText(/npm run ingest --workspace=@screen-yield\/etl/)).toBeTruthy();
   });
 });

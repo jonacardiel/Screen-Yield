@@ -1,14 +1,59 @@
 @import "tailwindcss";
 
+@theme {
+  --color-surge-bg: #05070d;
+  --color-surge-surface: #0b1120;
+  --color-surge-surface-2: #0e1526;
+  --color-surge-border: #1c2740;
+  --color-surge-border-strong: #2a3a5c;
+
+  --color-surge-text: #eef2ff;
+  --color-surge-text-muted: #8b97b5;
+  --color-surge-text-faint: #576081;
+
+  --color-surge-cyan: #22d3ee;
+  --color-surge-cyan-dim: #0e7490;
+  --color-surge-amber: #f59e0b;
+  --color-surge-amber-dim: #92400e;
+  --color-surge-red: #ef4444;
+  --color-surge-red-dim: #7f1d1d;
+
+  --color-zone-standard: #64748b;
+  --color-zone-premium: #38bdf8;
+  --color-zone-recliner: #818cf8;
+
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+}
+
 :root {
-  --zone-standard: #64748b; /* slate */
-  --zone-premium: #6366f1; /* indigo */
-  --zone-recliner: #d946ef; /* fuchsia — the priciest tier gets the warmest color */
-  --seat-sold: #27272a;
-  --seat-selected: #22c55e;
+  --zone-standard: var(--color-zone-standard);
+  --zone-premium: var(--color-zone-premium);
+  --zone-recliner: var(--color-zone-recliner);
+  --seat-sold: #1a2033;
+  --seat-selected: #34d399;
+  --seat-held: var(--color-surge-amber);
+  --seatmap-screen-arc: #3b4766;
+  --seatmap-screen-text: #5b6b94;
+  --seatmap-row-label: #8b97b5;
+  --seatmap-focus-ring: #67e8f9;
 }
 
 body {
-  background: #0b0d12;
-  color: #e5e7eb;
+  background: var(--color-surge-bg);
+  color: var(--color-surge-text);
+  font-family: var(--font-sans);
+}
+
+/* A held (counting-down) seat pulses via its stroke, not the CSS `transition` already used
+   for hover/select — this loops on its own regardless of remaining time, at zero per-tick
+   cost, unlike animating it from React on every countdown tick would be. */
+@keyframes seat-pulse {
+  0%,
+  100% {
+    stroke-opacity: 0.5;
+  }
+  50% {
+    stroke-opacity: 1;
+  }
 }
