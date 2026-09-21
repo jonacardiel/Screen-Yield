@@ -18,3 +18,6 @@ export type {
   SeatKind,
   Zone,
 } from "./auditorium.js";
+
+export { FilmSchema, IngestMetaSchema, ShowtimeSchema, SnapshotSchema } from "./catalog.js";
+export type { Film, IngestMeta, Showtime, Snapshot } from "./catalog.js";

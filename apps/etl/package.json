@@ -1,0 +1,22 @@
+{
+  "name": "@screen-yield/etl",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fetches current/upcoming films from TMDB, allocates them into Meridian Cinemas' showtime grid, and writes the result to packages/snapshot — the data apps/web actually renders.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "ingest": "npm run build && node --env-file-if-exists=.env dist/ingest.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@screen-yield/schema": "*",
+    "@screen-yield/layouts": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0",
+    "@types/node": "^22.10.0"
+  }
+}

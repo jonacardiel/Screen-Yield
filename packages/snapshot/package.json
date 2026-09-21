@@ -1,0 +1,12 @@
+{
+  "name": "@screen-yield/snapshot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The committed output of apps/etl's ingest run: this week's real TMDB films and showtimes. Regenerated daily by .github/workflows/ingest.yml. apps/web reads these directly, so the demo works even with the backend fully asleep.",
+  "type": "module",
+  "exports": {
+    "./films": "./films.json",
+    "./showtimes": "./showtimes.json",
+    "./meta": "./meta.json"
+  }
+}

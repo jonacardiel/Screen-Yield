@@ -1,0 +1,42 @@
+[
+  {
+    "tmdbId": 1101383,
+    "title": "The End of Oak Street",
+    "releaseDate": "2026-08-14",
+    "runtimeMin": 100,
+    "posterPath": "/fYXqpgPmHMphSF2W30GbTeJVIa5.jpg",
+    "popularity": 566.3338
+  },
+  {
+    "tmdbId": 1423191,
+    "title": "Resident Evil",
+    "releaseDate": "2026-09-18",
+    "runtimeMin": 95,
+    "posterPath": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
+    "popularity": 525.4108
+  },
+  {
+    "tmdbId": 1204680,
+    "title": "Coyote vs. Acme",
+    "releaseDate": "2026-08-28",
+    "runtimeMin": 103,
+    "posterPath": "/kYDCl2y0VPvhT5eYWbMRInPoB03.jpg",
+    "popularity": 472.0999
+  },
+  {
+    "tmdbId": 1375646,
+    "title": "Colony",
+    "releaseDate": "2026-08-28",
+    "runtimeMin": 123,
+    "posterPath": "/tN799oUR0f1gUKDYdMNrDaY7I51.jpg",
+    "popularity": 357.8035
+  },
+  {
+    "tmdbId": 1288445,
+    "title": "Mutiny",
+    "releaseDate": "2026-08-21",
+    "runtimeMin": 96,
+    "posterPath": "/pu2VxGlpGwffOx292w18b1tv96j.jpg",
+    "popularity": 211.6718
+  }
+]

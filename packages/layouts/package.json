@@ -4,14 +4,24 @@
   "description": "Hand-authored fictional auditorium layouts for Meridian Cinemas, plus the generator/validator scripts used to build them.",
   "private": true,
   "type": "module",
+  "main": "./index.mjs",
+  "types": "./index.d.ts",
   "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.mjs"
+    },
     "./hall-01": "./meridian-downtown/hall-01.json"
   },
   "scripts": {
     "generate": "node generate-hall.mjs",
-    "validate": "node validate.mjs"
+    "validate": "node validate.mjs",
+    "test": "vitest run"
   },
   "dependencies": {
     "@screen-yield/schema": "*"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.0"
   }
 }
