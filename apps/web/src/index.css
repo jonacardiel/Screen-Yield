@@ -45,6 +45,14 @@ body {
   font-family: var(--font-sans);
 }
 
+/* Seats already get a deliberate, visible focus indicator via their `stroke`
+   (--seatmap-focus-ring) — without this, the browser's own default focus outline (drawn as a
+   glowing halo around these tiny SVG rects, not a rectangular ring like on normal elements)
+   stacks on top of it. */
+svg[role="grid"] rect[role="gridcell"]:focus {
+  outline: none;
+}
+
 /* A held (counting-down) seat pulses via its stroke, not the CSS `transition` already used
    for hover/select — this loops on its own regardless of remaining time, at zero per-tick
    cost, unlike animating it from React on every countdown tick would be. */
