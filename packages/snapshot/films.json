@@ -5,7 +5,7 @@
     "releaseDate": "2026-09-18",
     "runtimeMin": 95,
     "posterPath": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
-    "popularity": 416.4752
+    "popularity": 446.6667
   },
   {
     "tmdbId": 1204680,
@@ -13,7 +13,7 @@
     "releaseDate": "2026-08-17",
     "runtimeMin": 103,
     "posterPath": "/kYDCl2y0VPvhT5eYWbMRInPoB03.jpg",
-    "popularity": 325.8283
+    "popularity": 304.7214
   },
   {
     "tmdbId": 1228834,
@@ -21,7 +21,7 @@
     "releaseDate": "2026-09-11",
     "runtimeMin": 142,
     "posterPath": "/9iSkee8DPpwBQI3GhXSTGZJKNYM.jpg",
-    "popularity": 257.4152
+    "popularity": 260.4762
   },
   {
     "tmdbId": 1377237,
@@ -29,7 +29,7 @@
     "releaseDate": "2026-09-07",
     "runtimeMin": 97,
     "posterPath": "/yBKMAIj7clP42UkFejhGDBBoTpb.jpg",
-    "popularity": 244.0747
+    "popularity": 255.8538
   },
   {
     "tmdbId": 1375646,
@@ -37,22 +37,6 @@
     "releaseDate": "2026-08-28",
     "runtimeMin": 123,
     "posterPath": "/tN799oUR0f1gUKDYdMNrDaY7I51.jpg",
-    "popularity": 191.4953
-  },
-  {
-    "tmdbId": 1248832,
-    "title": "Digger",
-    "releaseDate": "2026-10-02",
-    "runtimeMin": 129,
-    "posterPath": "/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg",
-    "popularity": 183.1728
-  },
-  {
-    "tmdbId": 1263337,
-    "title": "Heart of the Beast",
-    "releaseDate": "2026-09-25",
-    "runtimeMin": 101,
-    "posterPath": "/mYqiF90igComG2L2qm8SwFbaMwn.jpg",
-    "popularity": 170.2988
+    "popularity": 179.1788
   }
 ]
