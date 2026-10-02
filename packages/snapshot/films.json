@@ -1,27 +1,35 @@
 [
   {
-    "tmdbId": 1101383,
-    "title": "The End of Oak Street",
-    "releaseDate": "2026-08-14",
-    "runtimeMin": 100,
-    "posterPath": "/fYXqpgPmHMphSF2W30GbTeJVIa5.jpg",
-    "popularity": 566.3338
-  },
-  {
     "tmdbId": 1423191,
     "title": "Resident Evil",
     "releaseDate": "2026-09-18",
     "runtimeMin": 95,
     "posterPath": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
-    "popularity": 525.4108
+    "popularity": 416.4752
   },
   {
     "tmdbId": 1204680,
     "title": "Coyote vs. Acme",
-    "releaseDate": "2026-08-28",
+    "releaseDate": "2026-08-17",
     "runtimeMin": 103,
     "posterPath": "/kYDCl2y0VPvhT5eYWbMRInPoB03.jpg",
-    "popularity": 472.0999
+    "popularity": 325.8283
+  },
+  {
+    "tmdbId": 1228834,
+    "title": "The Fix",
+    "releaseDate": "2026-09-11",
+    "runtimeMin": 142,
+    "posterPath": "/9iSkee8DPpwBQI3GhXSTGZJKNYM.jpg",
+    "popularity": 257.4152
+  },
+  {
+    "tmdbId": 1377237,
+    "title": "Runner",
+    "releaseDate": "2026-09-07",
+    "runtimeMin": 97,
+    "posterPath": "/yBKMAIj7clP42UkFejhGDBBoTpb.jpg",
+    "popularity": 244.0747
   },
   {
     "tmdbId": 1375646,
@@ -29,14 +37,22 @@
     "releaseDate": "2026-08-28",
     "runtimeMin": 123,
     "posterPath": "/tN799oUR0f1gUKDYdMNrDaY7I51.jpg",
-    "popularity": 357.8035
+    "popularity": 191.4953
   },
   {
-    "tmdbId": 1288445,
-    "title": "Mutiny",
-    "releaseDate": "2026-08-21",
-    "runtimeMin": 96,
-    "posterPath": "/pu2VxGlpGwffOx292w18b1tv96j.jpg",
-    "popularity": 211.6718
+    "tmdbId": 1248832,
+    "title": "Digger",
+    "releaseDate": "2026-10-02",
+    "runtimeMin": 129,
+    "posterPath": "/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg",
+    "popularity": 183.1728
+  },
+  {
+    "tmdbId": 1263337,
+    "title": "Heart of the Beast",
+    "releaseDate": "2026-09-25",
+    "runtimeMin": 101,
+    "posterPath": "/mYqiF90igComG2L2qm8SwFbaMwn.jpg",
+    "popularity": 170.2988
   }
 ]
