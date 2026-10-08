@@ -5,7 +5,7 @@
     "releaseDate": "2026-09-18",
     "runtimeMin": 95,
     "posterPath": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
-    "popularity": 641.9788
+    "popularity": 957.9474
   },
   {
     "tmdbId": 1228834,
@@ -13,7 +13,7 @@
     "releaseDate": "2026-09-11",
     "runtimeMin": 142,
     "posterPath": "/yopXjun3ICFfJci2ukcEzceZjUs.jpg",
-    "popularity": 276.4634
+    "popularity": 276.4334
   },
   {
     "tmdbId": 1377237,
@@ -21,22 +21,14 @@
     "releaseDate": "2026-09-07",
     "runtimeMin": 97,
     "posterPath": "/yBKMAIj7clP42UkFejhGDBBoTpb.jpg",
-    "popularity": 272.8819
+    "popularity": 265.9618
   },
   {
-    "tmdbId": 1248832,
-    "title": "Digger",
-    "releaseDate": "2026-10-02",
-    "runtimeMin": 129,
-    "posterPath": "/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg",
-    "popularity": 200.3842
-  },
-  {
-    "tmdbId": 1283515,
-    "title": "Verity",
-    "releaseDate": "2026-10-02",
-    "runtimeMin": 114,
-    "posterPath": "/97y0RdzRIeZ2j6se98hRQpxz3eR.jpg",
-    "popularity": 144.7575
+    "tmdbId": 1101412,
+    "title": "Fall 2: Deadpoint",
+    "releaseDate": "2026-09-02",
+    "runtimeMin": 98,
+    "posterPath": "/fgSm5ylwiXbIHn8UbUXDjk9RRu4.jpg",
+    "popularity": 209.0382
   }
 ]
