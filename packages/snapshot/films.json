@@ -5,7 +5,7 @@
     "releaseDate": "2026-09-18",
     "runtimeMin": 95,
     "posterPath": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
-    "popularity": 843.9801
+    "popularity": 703.1893
   },
   {
     "tmdbId": 1228834,
@@ -13,7 +13,7 @@
     "releaseDate": "2026-09-11",
     "runtimeMin": 142,
     "posterPath": "/yopXjun3ICFfJci2ukcEzceZjUs.jpg",
-    "popularity": 274.5749
+    "popularity": 271.1705
   },
   {
     "tmdbId": 1377237,
@@ -21,7 +21,7 @@
     "releaseDate": "2026-09-07",
     "runtimeMin": 97,
     "posterPath": "/yBKMAIj7clP42UkFejhGDBBoTpb.jpg",
-    "popularity": 259.3649
+    "popularity": 252.7218
   },
   {
     "tmdbId": 1101412,
@@ -29,6 +29,14 @@
     "releaseDate": "2026-09-02",
     "runtimeMin": 98,
     "posterPath": "/fgSm5ylwiXbIHn8UbUXDjk9RRu4.jpg",
-    "popularity": 225.0661
+    "popularity": 241.2549
+  },
+  {
+    "tmdbId": 1248832,
+    "title": "Digger",
+    "releaseDate": "2026-10-02",
+    "runtimeMin": 129,
+    "posterPath": "/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg",
+    "popularity": 148.5371
   }
 ]
