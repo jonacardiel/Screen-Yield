@@ -5,15 +5,7 @@
     "releaseDate": "2026-09-18",
     "runtimeMin": 95,
     "posterPath": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
-    "popularity": 704.1066
-  },
-  {
-    "tmdbId": 1228834,
-    "title": "The Fix",
-    "releaseDate": "2026-09-11",
-    "runtimeMin": 142,
-    "posterPath": "/yopXjun3ICFfJci2ukcEzceZjUs.jpg",
-    "popularity": 276.9325
+    "popularity": 667.2432
   },
   {
     "tmdbId": 1101412,
@@ -21,7 +13,15 @@
     "releaseDate": "2026-09-02",
     "runtimeMin": 98,
     "posterPath": "/fgSm5ylwiXbIHn8UbUXDjk9RRu4.jpg",
-    "popularity": 268.8773
+    "popularity": 301.3891
+  },
+  {
+    "tmdbId": 1228834,
+    "title": "The Fix",
+    "releaseDate": "2026-09-11",
+    "runtimeMin": 142,
+    "posterPath": "/yopXjun3ICFfJci2ukcEzceZjUs.jpg",
+    "popularity": 295.0375
   },
   {
     "tmdbId": 1377237,
@@ -29,7 +29,7 @@
     "releaseDate": "2026-09-07",
     "runtimeMin": 97,
     "posterPath": "/yBKMAIj7clP42UkFejhGDBBoTpb.jpg",
-    "popularity": 253.2406
+    "popularity": 287.3767
   },
   {
     "tmdbId": 1236045,
@@ -37,6 +37,6 @@
     "releaseDate": "2026-10-09",
     "runtimeMin": 106,
     "posterPath": "/cyltXU1lAGhRFBuHQIMWBAPj8fI.jpg",
-    "popularity": 194.3342
+    "popularity": 240.3403
   }
 ]
