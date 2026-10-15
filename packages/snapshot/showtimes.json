@@ -1,53 +1,5 @@
 [
   {
-    "id": "meridian-downtown/hall-01@2026-10-14T19:00:00.000Z",
-    "auditoriumId": "meridian-downtown/hall-01",
-    "tmdbFilmId": 1423191,
-    "startsAtIso": "2026-10-14T19:00:00.000Z",
-    "localTime": "12:00",
-    "baseCents": 1200
-  },
-  {
-    "id": "meridian-downtown/hall-01@2026-10-14T21:00:00.000Z",
-    "auditoriumId": "meridian-downtown/hall-01",
-    "tmdbFilmId": 1236045,
-    "startsAtIso": "2026-10-14T21:00:00.000Z",
-    "localTime": "14:00",
-    "baseCents": 1200
-  },
-  {
-    "id": "meridian-downtown/hall-01@2026-10-14T23:15:00.000Z",
-    "auditoriumId": "meridian-downtown/hall-01",
-    "tmdbFilmId": 1377237,
-    "startsAtIso": "2026-10-14T23:15:00.000Z",
-    "localTime": "16:15",
-    "baseCents": 1200
-  },
-  {
-    "id": "meridian-downtown/hall-01@2026-10-15T01:15:00.000Z",
-    "auditoriumId": "meridian-downtown/hall-01",
-    "tmdbFilmId": 1228834,
-    "startsAtIso": "2026-10-15T01:15:00.000Z",
-    "localTime": "18:15",
-    "baseCents": 1200
-  },
-  {
-    "id": "meridian-downtown/hall-01@2026-10-15T04:00:00.000Z",
-    "auditoriumId": "meridian-downtown/hall-01",
-    "tmdbFilmId": 1423191,
-    "startsAtIso": "2026-10-15T04:00:00.000Z",
-    "localTime": "21:00",
-    "baseCents": 1200
-  },
-  {
-    "id": "meridian-downtown/hall-01@2026-10-15T06:00:00.000Z",
-    "auditoriumId": "meridian-downtown/hall-01",
-    "tmdbFilmId": 1400837,
-    "startsAtIso": "2026-10-15T06:00:00.000Z",
-    "localTime": "23:00",
-    "baseCents": 1200
-  },
-  {
     "id": "meridian-downtown/hall-01@2026-10-15T19:00:00.000Z",
     "auditoriumId": "meridian-downtown/hall-01",
     "tmdbFilmId": 1423191,
@@ -82,17 +34,9 @@
   {
     "id": "meridian-downtown/hall-01@2026-10-16T04:00:00.000Z",
     "auditoriumId": "meridian-downtown/hall-01",
-    "tmdbFilmId": 1423191,
+    "tmdbFilmId": 1058424,
     "startsAtIso": "2026-10-16T04:00:00.000Z",
     "localTime": "21:00",
-    "baseCents": 1200
-  },
-  {
-    "id": "meridian-downtown/hall-01@2026-10-16T06:00:00.000Z",
-    "auditoriumId": "meridian-downtown/hall-01",
-    "tmdbFilmId": 1400837,
-    "startsAtIso": "2026-10-16T06:00:00.000Z",
-    "localTime": "23:00",
     "baseCents": 1200
   },
   {
@@ -130,17 +74,9 @@
   {
     "id": "meridian-downtown/hall-01@2026-10-17T04:00:00.000Z",
     "auditoriumId": "meridian-downtown/hall-01",
-    "tmdbFilmId": 1423191,
+    "tmdbFilmId": 1058424,
     "startsAtIso": "2026-10-17T04:00:00.000Z",
     "localTime": "21:00",
-    "baseCents": 1200
-  },
-  {
-    "id": "meridian-downtown/hall-01@2026-10-17T06:00:00.000Z",
-    "auditoriumId": "meridian-downtown/hall-01",
-    "tmdbFilmId": 1400837,
-    "startsAtIso": "2026-10-17T06:00:00.000Z",
-    "localTime": "23:00",
     "baseCents": 1200
   },
   {
@@ -178,17 +114,9 @@
   {
     "id": "meridian-downtown/hall-01@2026-10-18T04:00:00.000Z",
     "auditoriumId": "meridian-downtown/hall-01",
-    "tmdbFilmId": 1423191,
+    "tmdbFilmId": 1058424,
     "startsAtIso": "2026-10-18T04:00:00.000Z",
     "localTime": "21:00",
-    "baseCents": 1200
-  },
-  {
-    "id": "meridian-downtown/hall-01@2026-10-18T06:00:00.000Z",
-    "auditoriumId": "meridian-downtown/hall-01",
-    "tmdbFilmId": 1400837,
-    "startsAtIso": "2026-10-18T06:00:00.000Z",
-    "localTime": "23:00",
     "baseCents": 1200
   },
   {
@@ -226,17 +154,9 @@
   {
     "id": "meridian-downtown/hall-01@2026-10-19T04:00:00.000Z",
     "auditoriumId": "meridian-downtown/hall-01",
-    "tmdbFilmId": 1423191,
+    "tmdbFilmId": 1058424,
     "startsAtIso": "2026-10-19T04:00:00.000Z",
     "localTime": "21:00",
-    "baseCents": 1200
-  },
-  {
-    "id": "meridian-downtown/hall-01@2026-10-19T06:00:00.000Z",
-    "auditoriumId": "meridian-downtown/hall-01",
-    "tmdbFilmId": 1400837,
-    "startsAtIso": "2026-10-19T06:00:00.000Z",
-    "localTime": "23:00",
     "baseCents": 1200
   },
   {
@@ -274,17 +194,9 @@
   {
     "id": "meridian-downtown/hall-01@2026-10-20T04:00:00.000Z",
     "auditoriumId": "meridian-downtown/hall-01",
-    "tmdbFilmId": 1423191,
+    "tmdbFilmId": 1058424,
     "startsAtIso": "2026-10-20T04:00:00.000Z",
     "localTime": "21:00",
-    "baseCents": 1200
-  },
-  {
-    "id": "meridian-downtown/hall-01@2026-10-20T06:00:00.000Z",
-    "auditoriumId": "meridian-downtown/hall-01",
-    "tmdbFilmId": 1400837,
-    "startsAtIso": "2026-10-20T06:00:00.000Z",
-    "localTime": "23:00",
     "baseCents": 1200
   },
   {
@@ -322,17 +234,49 @@
   {
     "id": "meridian-downtown/hall-01@2026-10-21T04:00:00.000Z",
     "auditoriumId": "meridian-downtown/hall-01",
-    "tmdbFilmId": 1423191,
+    "tmdbFilmId": 1058424,
     "startsAtIso": "2026-10-21T04:00:00.000Z",
     "localTime": "21:00",
     "baseCents": 1200
   },
   {
-    "id": "meridian-downtown/hall-01@2026-10-21T06:00:00.000Z",
+    "id": "meridian-downtown/hall-01@2026-10-21T19:00:00.000Z",
     "auditoriumId": "meridian-downtown/hall-01",
-    "tmdbFilmId": 1400837,
-    "startsAtIso": "2026-10-21T06:00:00.000Z",
-    "localTime": "23:00",
+    "tmdbFilmId": 1423191,
+    "startsAtIso": "2026-10-21T19:00:00.000Z",
+    "localTime": "12:00",
+    "baseCents": 1200
+  },
+  {
+    "id": "meridian-downtown/hall-01@2026-10-21T21:00:00.000Z",
+    "auditoriumId": "meridian-downtown/hall-01",
+    "tmdbFilmId": 1236045,
+    "startsAtIso": "2026-10-21T21:00:00.000Z",
+    "localTime": "14:00",
+    "baseCents": 1200
+  },
+  {
+    "id": "meridian-downtown/hall-01@2026-10-21T23:15:00.000Z",
+    "auditoriumId": "meridian-downtown/hall-01",
+    "tmdbFilmId": 1377237,
+    "startsAtIso": "2026-10-21T23:15:00.000Z",
+    "localTime": "16:15",
+    "baseCents": 1200
+  },
+  {
+    "id": "meridian-downtown/hall-01@2026-10-22T01:15:00.000Z",
+    "auditoriumId": "meridian-downtown/hall-01",
+    "tmdbFilmId": 1228834,
+    "startsAtIso": "2026-10-22T01:15:00.000Z",
+    "localTime": "18:15",
+    "baseCents": 1200
+  },
+  {
+    "id": "meridian-downtown/hall-01@2026-10-22T04:00:00.000Z",
+    "auditoriumId": "meridian-downtown/hall-01",
+    "tmdbFilmId": 1058424,
+    "startsAtIso": "2026-10-22T04:00:00.000Z",
+    "localTime": "21:00",
     "baseCents": 1200
   }
 ]
