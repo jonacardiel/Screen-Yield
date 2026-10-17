@@ -5,7 +5,7 @@
     "releaseDate": "2026-09-18",
     "runtimeMin": 95,
     "posterPath": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
-    "popularity": 296.6412
+    "popularity": 270.3527
   },
   {
     "tmdbId": 1236045,
@@ -13,7 +13,15 @@
     "releaseDate": "2026-10-09",
     "runtimeMin": 106,
     "posterPath": "/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
-    "popularity": 262.6055
+    "popularity": 244.8255
+  },
+  {
+    "tmdbId": 1058424,
+    "title": "Hope",
+    "releaseDate": "2026-09-09",
+    "runtimeMin": 157,
+    "posterPath": "/qW1m7bcsRb2lo8xG2v0p4mARyH8.jpg",
+    "popularity": 240.126
   },
   {
     "tmdbId": 1377237,
@@ -21,7 +29,7 @@
     "releaseDate": "2026-09-07",
     "runtimeMin": 97,
     "posterPath": "/yBKMAIj7clP42UkFejhGDBBoTpb.jpg",
-    "popularity": 237.4458
+    "popularity": 228.277
   },
   {
     "tmdbId": 1228834,
@@ -29,14 +37,6 @@
     "releaseDate": "2026-09-11",
     "runtimeMin": 142,
     "posterPath": "/jlP8XDjZN89GrpM3je5Uf8Grqx8.jpg",
-    "popularity": 231.3774
-  },
-  {
-    "tmdbId": 1058424,
-    "title": "Hope",
-    "releaseDate": "2026-09-09",
-    "runtimeMin": 157,
-    "posterPath": "/bcK5naYzzfY0JBCgrPrsrbV6NO1.jpg",
-    "popularity": 214.21
+    "popularity": 192.6092
   }
 ]
