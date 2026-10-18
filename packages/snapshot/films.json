@@ -1,11 +1,19 @@
 [
   {
+    "tmdbId": 1058424,
+    "title": "Hope",
+    "releaseDate": "2026-09-09",
+    "runtimeMin": 157,
+    "posterPath": "/qW1m7bcsRb2lo8xG2v0p4mARyH8.jpg",
+    "popularity": 294.6518
+  },
+  {
     "tmdbId": 1423191,
     "title": "Resident Evil",
     "releaseDate": "2026-09-18",
     "runtimeMin": 95,
     "posterPath": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
-    "popularity": 270.3527
+    "popularity": 259.9739
   },
   {
     "tmdbId": 1236045,
@@ -13,23 +21,7 @@
     "releaseDate": "2026-10-09",
     "runtimeMin": 106,
     "posterPath": "/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
-    "popularity": 244.8255
-  },
-  {
-    "tmdbId": 1058424,
-    "title": "Hope",
-    "releaseDate": "2026-09-09",
-    "runtimeMin": 157,
-    "posterPath": "/qW1m7bcsRb2lo8xG2v0p4mARyH8.jpg",
-    "popularity": 240.126
-  },
-  {
-    "tmdbId": 1377237,
-    "title": "Runner",
-    "releaseDate": "2026-09-07",
-    "runtimeMin": 97,
-    "posterPath": "/yBKMAIj7clP42UkFejhGDBBoTpb.jpg",
-    "popularity": 228.277
+    "popularity": 242.509
   },
   {
     "tmdbId": 1228834,
@@ -37,6 +29,14 @@
     "releaseDate": "2026-09-11",
     "runtimeMin": 142,
     "posterPath": "/jlP8XDjZN89GrpM3je5Uf8Grqx8.jpg",
-    "popularity": 192.6092
+    "popularity": 230.1191
+  },
+  {
+    "tmdbId": 1377237,
+    "title": "Runner",
+    "releaseDate": "2026-09-07",
+    "runtimeMin": 97,
+    "posterPath": "/yBKMAIj7clP42UkFejhGDBBoTpb.jpg",
+    "popularity": 229.5685
   }
 ]
