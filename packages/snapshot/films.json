@@ -5,23 +5,7 @@
     "releaseDate": "2026-09-09",
     "runtimeMin": 157,
     "posterPath": "/qW1m7bcsRb2lo8xG2v0p4mARyH8.jpg",
-    "popularity": 294.6518
-  },
-  {
-    "tmdbId": 1423191,
-    "title": "Resident Evil",
-    "releaseDate": "2026-09-18",
-    "runtimeMin": 95,
-    "posterPath": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
-    "popularity": 259.9739
-  },
-  {
-    "tmdbId": 1236045,
-    "title": "Animals",
-    "releaseDate": "2026-10-09",
-    "runtimeMin": 106,
-    "posterPath": "/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
-    "popularity": 242.509
+    "popularity": 368.4952
   },
   {
     "tmdbId": 1228834,
@@ -29,7 +13,15 @@
     "releaseDate": "2026-09-11",
     "runtimeMin": 142,
     "posterPath": "/jlP8XDjZN89GrpM3je5Uf8Grqx8.jpg",
-    "popularity": 230.1191
+    "popularity": 237.1306
+  },
+  {
+    "tmdbId": 1236045,
+    "title": "Animals",
+    "releaseDate": "2026-10-09",
+    "runtimeMin": 106,
+    "posterPath": "/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
+    "popularity": 236.8356
   },
   {
     "tmdbId": 1377237,
@@ -37,6 +29,14 @@
     "releaseDate": "2026-09-07",
     "runtimeMin": 97,
     "posterPath": "/yBKMAIj7clP42UkFejhGDBBoTpb.jpg",
-    "popularity": 229.5685
+    "popularity": 233.4374
+  },
+  {
+    "tmdbId": 1423191,
+    "title": "Resident Evil",
+    "releaseDate": "2026-09-18",
+    "runtimeMin": 95,
+    "posterPath": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
+    "popularity": 230.1312
   }
 ]
