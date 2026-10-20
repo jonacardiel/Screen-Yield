@@ -1,11 +1,35 @@
 [
   {
+    "tmdbId": 1153576,
+    "title": "Street Fighter",
+    "releaseDate": "2026-10-16",
+    "runtimeMin": 120,
+    "posterPath": "/pwUb3gdkSrlyMZWs0MFOQg3N5s7.jpg",
+    "popularity": 394.7423
+  },
+  {
     "tmdbId": 1058424,
     "title": "Hope",
     "releaseDate": "2026-09-09",
     "runtimeMin": 157,
-    "posterPath": "/qW1m7bcsRb2lo8xG2v0p4mARyH8.jpg",
-    "popularity": 368.4952
+    "posterPath": "/6VY1ZKgpsc8CfGsQcCGiYEgHdH0.jpg",
+    "popularity": 385.9445
+  },
+  {
+    "tmdbId": 1400837,
+    "title": "Other Mommy",
+    "releaseDate": "2026-10-09",
+    "runtimeMin": 93,
+    "posterPath": "/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+    "popularity": 321.947
+  },
+  {
+    "tmdbId": 1255833,
+    "title": "Whalefall",
+    "releaseDate": "2026-10-16",
+    "runtimeMin": 106,
+    "posterPath": "/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
+    "popularity": 307.1032
   },
   {
     "tmdbId": 1228834,
@@ -13,30 +37,6 @@
     "releaseDate": "2026-09-11",
     "runtimeMin": 142,
     "posterPath": "/jlP8XDjZN89GrpM3je5Uf8Grqx8.jpg",
-    "popularity": 237.1306
-  },
-  {
-    "tmdbId": 1236045,
-    "title": "Animals",
-    "releaseDate": "2026-10-09",
-    "runtimeMin": 106,
-    "posterPath": "/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
-    "popularity": 236.8356
-  },
-  {
-    "tmdbId": 1377237,
-    "title": "Runner",
-    "releaseDate": "2026-09-07",
-    "runtimeMin": 97,
-    "posterPath": "/yBKMAIj7clP42UkFejhGDBBoTpb.jpg",
-    "popularity": 233.4374
-  },
-  {
-    "tmdbId": 1423191,
-    "title": "Resident Evil",
-    "releaseDate": "2026-09-18",
-    "runtimeMin": 95,
-    "posterPath": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
-    "popularity": 230.1312
+    "popularity": 217.5344
   }
 ]
