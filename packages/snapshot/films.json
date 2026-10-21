@@ -4,16 +4,8 @@
     "title": "Street Fighter",
     "releaseDate": "2026-10-16",
     "runtimeMin": 120,
-    "posterPath": "/pwUb3gdkSrlyMZWs0MFOQg3N5s7.jpg",
-    "popularity": 394.7423
-  },
-  {
-    "tmdbId": 1058424,
-    "title": "Hope",
-    "releaseDate": "2026-09-09",
-    "runtimeMin": 157,
-    "posterPath": "/6VY1ZKgpsc8CfGsQcCGiYEgHdH0.jpg",
-    "popularity": 385.9445
+    "posterPath": "/ccxdepKqORLwccbzvO4eAGkN0IC.jpg",
+    "popularity": 375.755
   },
   {
     "tmdbId": 1400837,
@@ -21,7 +13,7 @@
     "releaseDate": "2026-10-09",
     "runtimeMin": 93,
     "posterPath": "/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
-    "popularity": 321.947
+    "popularity": 281.0903
   },
   {
     "tmdbId": 1255833,
@@ -29,14 +21,30 @@
     "releaseDate": "2026-10-16",
     "runtimeMin": 106,
     "posterPath": "/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
-    "popularity": 307.1032
+    "popularity": 258.2246
   },
   {
-    "tmdbId": 1228834,
-    "title": "The Fix",
-    "releaseDate": "2026-09-11",
-    "runtimeMin": 142,
-    "posterPath": "/jlP8XDjZN89GrpM3je5Uf8Grqx8.jpg",
-    "popularity": 217.5344
+    "tmdbId": 1281331,
+    "title": "The Social Reckoning",
+    "releaseDate": "2026-10-09",
+    "runtimeMin": 113,
+    "posterPath": "/7jK6NuxVg1XuEV7UdNa6KO03IgZ.jpg",
+    "popularity": 214.1865
+  },
+  {
+    "tmdbId": 1248832,
+    "title": "Digger",
+    "releaseDate": "2026-10-02",
+    "runtimeMin": 129,
+    "posterPath": "/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg",
+    "popularity": 197.3817
+  },
+  {
+    "tmdbId": 1236045,
+    "title": "Animals",
+    "releaseDate": "2026-10-09",
+    "runtimeMin": 106,
+    "posterPath": "/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
+    "popularity": 190.177
   }
 ]
