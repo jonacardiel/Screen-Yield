@@ -5,7 +5,7 @@
     "releaseDate": "2026-10-16",
     "runtimeMin": 120,
     "posterPath": "/ccxdepKqORLwccbzvO4eAGkN0IC.jpg",
-    "popularity": 375.755
+    "popularity": 298.3684
   },
   {
     "tmdbId": 1400837,
@@ -13,7 +13,7 @@
     "releaseDate": "2026-10-09",
     "runtimeMin": 93,
     "posterPath": "/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
-    "popularity": 281.0903
+    "popularity": 206.3415
   },
   {
     "tmdbId": 1255833,
@@ -21,23 +21,15 @@
     "releaseDate": "2026-10-16",
     "runtimeMin": 106,
     "posterPath": "/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
-    "popularity": 258.2246
+    "popularity": 202.0938
   },
   {
-    "tmdbId": 1281331,
-    "title": "The Social Reckoning",
-    "releaseDate": "2026-10-09",
-    "runtimeMin": 113,
-    "posterPath": "/7jK6NuxVg1XuEV7UdNa6KO03IgZ.jpg",
-    "popularity": 214.1865
-  },
-  {
-    "tmdbId": 1248832,
-    "title": "Digger",
-    "releaseDate": "2026-10-02",
-    "runtimeMin": 129,
-    "posterPath": "/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg",
-    "popularity": 197.3817
+    "tmdbId": 1400940,
+    "title": "Clayface",
+    "releaseDate": "2026-10-23",
+    "runtimeMin": 109,
+    "posterPath": "/5jCpQnWPikggmQZoDp1eAi6BI6w.jpg",
+    "popularity": 192.4303
   },
   {
     "tmdbId": 1236045,
@@ -45,6 +37,22 @@
     "releaseDate": "2026-10-09",
     "runtimeMin": 106,
     "posterPath": "/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
-    "popularity": 190.177
+    "popularity": 178.5958
+  },
+  {
+    "tmdbId": 1423191,
+    "title": "Resident Evil",
+    "releaseDate": "2026-09-18",
+    "runtimeMin": 95,
+    "posterPath": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
+    "popularity": 171.0037
+  },
+  {
+    "tmdbId": 1514026,
+    "title": "Buddy",
+    "releaseDate": "2026-08-28",
+    "runtimeMin": 96,
+    "posterPath": "/1BdZbNvl1SfrrX8J9X5tQzN6Ivu.jpg",
+    "popularity": 155.5864
   }
 ]
