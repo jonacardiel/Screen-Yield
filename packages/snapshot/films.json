@@ -5,7 +5,7 @@
     "releaseDate": "2026-10-16",
     "runtimeMin": 120,
     "posterPath": "/ccxdepKqORLwccbzvO4eAGkN0IC.jpg",
-    "popularity": 298.3684
+    "popularity": 282.5344
   },
   {
     "tmdbId": 1400837,
@@ -13,7 +13,15 @@
     "releaseDate": "2026-10-09",
     "runtimeMin": 93,
     "posterPath": "/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
-    "popularity": 206.3415
+    "popularity": 199.4727
+  },
+  {
+    "tmdbId": 1400940,
+    "title": "Clayface",
+    "releaseDate": "2026-10-23",
+    "runtimeMin": 109,
+    "posterPath": "/9l1NuFjel2j89hiuiJbsxfblqjy.jpg",
+    "popularity": 195.3481
   },
   {
     "tmdbId": 1255833,
@@ -21,23 +29,7 @@
     "releaseDate": "2026-10-16",
     "runtimeMin": 106,
     "posterPath": "/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
-    "popularity": 202.0938
-  },
-  {
-    "tmdbId": 1400940,
-    "title": "Clayface",
-    "releaseDate": "2026-10-23",
-    "runtimeMin": 109,
-    "posterPath": "/5jCpQnWPikggmQZoDp1eAi6BI6w.jpg",
-    "popularity": 192.4303
-  },
-  {
-    "tmdbId": 1236045,
-    "title": "Animals",
-    "releaseDate": "2026-10-09",
-    "runtimeMin": 106,
-    "posterPath": "/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
-    "popularity": 178.5958
+    "popularity": 192.5295
   },
   {
     "tmdbId": 1423191,
@@ -45,14 +37,14 @@
     "releaseDate": "2026-09-18",
     "runtimeMin": 95,
     "posterPath": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
-    "popularity": 171.0037
+    "popularity": 168.7962
   },
   {
-    "tmdbId": 1514026,
-    "title": "Buddy",
-    "releaseDate": "2026-08-28",
-    "runtimeMin": 96,
-    "posterPath": "/1BdZbNvl1SfrrX8J9X5tQzN6Ivu.jpg",
-    "popularity": 155.5864
+    "tmdbId": 1236045,
+    "title": "Animals",
+    "releaseDate": "2026-10-09",
+    "runtimeMin": 106,
+    "posterPath": "/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
+    "popularity": 166.5319
   }
 ]
