@@ -5,15 +5,7 @@
     "releaseDate": "2026-10-16",
     "runtimeMin": 120,
     "posterPath": "/ccxdepKqORLwccbzvO4eAGkN0IC.jpg",
-    "popularity": 282.5344
-  },
-  {
-    "tmdbId": 1400837,
-    "title": "Other Mommy",
-    "releaseDate": "2026-10-09",
-    "runtimeMin": 93,
-    "posterPath": "/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
-    "popularity": 199.4727
+    "popularity": 254.1287
   },
   {
     "tmdbId": 1400940,
@@ -21,15 +13,7 @@
     "releaseDate": "2026-10-23",
     "runtimeMin": 109,
     "posterPath": "/9l1NuFjel2j89hiuiJbsxfblqjy.jpg",
-    "popularity": 195.3481
-  },
-  {
-    "tmdbId": 1255833,
-    "title": "Whalefall",
-    "releaseDate": "2026-10-16",
-    "runtimeMin": 106,
-    "posterPath": "/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
-    "popularity": 192.5295
+    "popularity": 240.8093
   },
   {
     "tmdbId": 1423191,
@@ -37,7 +21,31 @@
     "releaseDate": "2026-09-18",
     "runtimeMin": 95,
     "posterPath": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
-    "popularity": 168.7962
+    "popularity": 193.8365
+  },
+  {
+    "tmdbId": 1400837,
+    "title": "Other Mommy",
+    "releaseDate": "2026-10-09",
+    "runtimeMin": 93,
+    "posterPath": "/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+    "popularity": 189.795
+  },
+  {
+    "tmdbId": 1255833,
+    "title": "Whalefall",
+    "releaseDate": "2026-10-16",
+    "runtimeMin": 106,
+    "posterPath": "/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
+    "popularity": 177.1733
+  },
+  {
+    "tmdbId": 1514026,
+    "title": "Buddy",
+    "releaseDate": "2026-08-28",
+    "runtimeMin": 96,
+    "posterPath": "/1BdZbNvl1SfrrX8J9X5tQzN6Ivu.jpg",
+    "popularity": 168.0343
   },
   {
     "tmdbId": 1236045,
@@ -45,6 +53,6 @@
     "releaseDate": "2026-10-09",
     "runtimeMin": 106,
     "posterPath": "/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
-    "popularity": 166.5319
+    "popularity": 154.8071
   }
 ]
