@@ -1,43 +1,19 @@
 [
   {
-    "tmdbId": 1153576,
-    "title": "Street Fighter",
-    "releaseDate": "2026-10-16",
-    "runtimeMin": 120,
-    "posterPath": "/ccxdepKqORLwccbzvO4eAGkN0IC.jpg",
-    "popularity": 254.1287
-  },
-  {
     "tmdbId": 1400940,
     "title": "Clayface",
     "releaseDate": "2026-10-23",
     "runtimeMin": 109,
     "posterPath": "/9l1NuFjel2j89hiuiJbsxfblqjy.jpg",
-    "popularity": 240.8093
+    "popularity": 273.1418
   },
   {
-    "tmdbId": 1423191,
-    "title": "Resident Evil",
-    "releaseDate": "2026-09-18",
-    "runtimeMin": 95,
-    "posterPath": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
-    "popularity": 193.8365
-  },
-  {
-    "tmdbId": 1400837,
-    "title": "Other Mommy",
-    "releaseDate": "2026-10-09",
-    "runtimeMin": 93,
-    "posterPath": "/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
-    "popularity": 189.795
-  },
-  {
-    "tmdbId": 1255833,
-    "title": "Whalefall",
+    "tmdbId": 1153576,
+    "title": "Street Fighter",
     "releaseDate": "2026-10-16",
-    "runtimeMin": 106,
-    "posterPath": "/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
-    "popularity": 177.1733
+    "runtimeMin": 120,
+    "posterPath": "/ccxdepKqORLwccbzvO4eAGkN0IC.jpg",
+    "popularity": 238.2332
   },
   {
     "tmdbId": 1514026,
@@ -45,7 +21,31 @@
     "releaseDate": "2026-08-28",
     "runtimeMin": 96,
     "posterPath": "/1BdZbNvl1SfrrX8J9X5tQzN6Ivu.jpg",
-    "popularity": 168.0343
+    "popularity": 185.8033
+  },
+  {
+    "tmdbId": 1400837,
+    "title": "Other Mommy",
+    "releaseDate": "2026-10-09",
+    "runtimeMin": 93,
+    "posterPath": "/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+    "popularity": 182.0133
+  },
+  {
+    "tmdbId": 1423191,
+    "title": "Resident Evil",
+    "releaseDate": "2026-09-18",
+    "runtimeMin": 95,
+    "posterPath": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
+    "popularity": 166.5769
+  },
+  {
+    "tmdbId": 1255833,
+    "title": "Whalefall",
+    "releaseDate": "2026-10-16",
+    "runtimeMin": 106,
+    "posterPath": "/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
+    "popularity": 161.733
   },
   {
     "tmdbId": 1236045,
@@ -53,6 +53,6 @@
     "releaseDate": "2026-10-09",
     "runtimeMin": 106,
     "posterPath": "/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
-    "popularity": 154.8071
+    "popularity": 155.1709
   }
 ]
