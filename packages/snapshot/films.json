@@ -5,15 +5,7 @@
     "releaseDate": "2026-10-23",
     "runtimeMin": 109,
     "posterPath": "/9l1NuFjel2j89hiuiJbsxfblqjy.jpg",
-    "popularity": 273.1418
-  },
-  {
-    "tmdbId": 1153576,
-    "title": "Street Fighter",
-    "releaseDate": "2026-10-16",
-    "runtimeMin": 120,
-    "posterPath": "/ccxdepKqORLwccbzvO4eAGkN0IC.jpg",
-    "popularity": 238.2332
+    "popularity": 267.4788
   },
   {
     "tmdbId": 1514026,
@@ -21,15 +13,15 @@
     "releaseDate": "2026-08-28",
     "runtimeMin": 96,
     "posterPath": "/1BdZbNvl1SfrrX8J9X5tQzN6Ivu.jpg",
-    "popularity": 185.8033
+    "popularity": 201.3916
   },
   {
-    "tmdbId": 1400837,
-    "title": "Other Mommy",
-    "releaseDate": "2026-10-09",
-    "runtimeMin": 93,
-    "posterPath": "/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
-    "popularity": 182.0133
+    "tmdbId": 1153576,
+    "title": "Street Fighter",
+    "releaseDate": "2026-10-16",
+    "runtimeMin": 120,
+    "posterPath": "/ccxdepKqORLwccbzvO4eAGkN0IC.jpg",
+    "popularity": 191.7096
   },
   {
     "tmdbId": 1423191,
@@ -37,15 +29,7 @@
     "releaseDate": "2026-09-18",
     "runtimeMin": 95,
     "posterPath": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
-    "popularity": 166.5769
-  },
-  {
-    "tmdbId": 1255833,
-    "title": "Whalefall",
-    "releaseDate": "2026-10-16",
-    "runtimeMin": 106,
-    "posterPath": "/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
-    "popularity": 161.733
+    "popularity": 184.3922
   },
   {
     "tmdbId": 1236045,
@@ -53,6 +37,22 @@
     "releaseDate": "2026-10-09",
     "runtimeMin": 106,
     "posterPath": "/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
-    "popularity": 155.1709
+    "popularity": 154.4923
+  },
+  {
+    "tmdbId": 1400837,
+    "title": "Other Mommy",
+    "releaseDate": "2026-10-09",
+    "runtimeMin": 93,
+    "posterPath": "/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+    "popularity": 150.9008
+  },
+  {
+    "tmdbId": 791523,
+    "title": "Wildwood",
+    "releaseDate": "2026-10-23",
+    "runtimeMin": 132,
+    "posterPath": "/snFM00mpNAfUzUtkdEW0uDEvXA0.jpg",
+    "popularity": 140.2165
   }
 ]
