@@ -5,7 +5,7 @@
     "releaseDate": "2026-10-23",
     "runtimeMin": 109,
     "posterPath": "/9l1NuFjel2j89hiuiJbsxfblqjy.jpg",
-    "popularity": 267.4788
+    "popularity": 237.9795
   },
   {
     "tmdbId": 1514026,
@@ -13,15 +13,7 @@
     "releaseDate": "2026-08-28",
     "runtimeMin": 96,
     "posterPath": "/1BdZbNvl1SfrrX8J9X5tQzN6Ivu.jpg",
-    "popularity": 201.3916
-  },
-  {
-    "tmdbId": 1153576,
-    "title": "Street Fighter",
-    "releaseDate": "2026-10-16",
-    "runtimeMin": 120,
-    "posterPath": "/ccxdepKqORLwccbzvO4eAGkN0IC.jpg",
-    "popularity": 191.7096
+    "popularity": 189.7429
   },
   {
     "tmdbId": 1423191,
@@ -29,23 +21,15 @@
     "releaseDate": "2026-09-18",
     "runtimeMin": 95,
     "posterPath": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
-    "popularity": 184.3922
+    "popularity": 165.0494
   },
   {
-    "tmdbId": 1236045,
-    "title": "Animals",
-    "releaseDate": "2026-10-09",
-    "runtimeMin": 106,
-    "posterPath": "/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
-    "popularity": 154.4923
-  },
-  {
-    "tmdbId": 1400837,
-    "title": "Other Mommy",
-    "releaseDate": "2026-10-09",
-    "runtimeMin": 93,
-    "posterPath": "/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
-    "popularity": 150.9008
+    "tmdbId": 1153576,
+    "title": "Street Fighter",
+    "releaseDate": "2026-10-16",
+    "runtimeMin": 120,
+    "posterPath": "/ccxdepKqORLwccbzvO4eAGkN0IC.jpg",
+    "popularity": 151.1143
   },
   {
     "tmdbId": 791523,
@@ -53,6 +37,30 @@
     "releaseDate": "2026-10-23",
     "runtimeMin": 132,
     "posterPath": "/snFM00mpNAfUzUtkdEW0uDEvXA0.jpg",
-    "popularity": 140.2165
+    "popularity": 148.2322
+  },
+  {
+    "tmdbId": 1236045,
+    "title": "Animals",
+    "releaseDate": "2026-10-09",
+    "runtimeMin": 106,
+    "posterPath": "/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
+    "popularity": 133.8014
+  },
+  {
+    "tmdbId": 1294189,
+    "title": "The Mongoose",
+    "releaseDate": "2026-10-30",
+    "runtimeMin": 99,
+    "posterPath": "/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
+    "popularity": 125.6535
+  },
+  {
+    "tmdbId": 1765072,
+    "title": "You Can See Everything",
+    "releaseDate": "2026-10-16",
+    "runtimeMin": 174,
+    "posterPath": "/Ap8QwmKfSjYbWC4XIP8w9pdn72O.jpg",
+    "popularity": 116.5639
   }
 ]
