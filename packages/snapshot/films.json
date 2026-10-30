@@ -1,50 +1,26 @@
 [
   {
+    "tmdbId": 791523,
+    "title": "Wildwood",
+    "releaseDate": "2026-10-23",
+    "runtimeMin": 132,
+    "posterPath": "/8g7q6o54WfKWRmUQ0Ye8OskevUY.jpg",
+    "popularity": 1196.6757
+  },
+  {
     "tmdbId": 1400940,
     "title": "Clayface",
     "releaseDate": "2026-10-23",
     "runtimeMin": 109,
     "posterPath": "/9l1NuFjel2j89hiuiJbsxfblqjy.jpg",
-    "popularity": 231.682
+    "popularity": 218.7851
   },
   {
     "tmdbId": 1283515,
     "title": "Verity",
     "releaseDate": "2026-10-02",
-    "runtimeMin": 121,
+    "runtimeMin": 117,
     "posterPath": "/rmaNMA1seHqpjtnYKzyynFAr1g8.jpg",
-    "popularity": 179.6426
-  },
-  {
-    "tmdbId": 791523,
-    "title": "Wildwood",
-    "releaseDate": "2026-10-23",
-    "runtimeMin": 132,
-    "posterPath": "/snFM00mpNAfUzUtkdEW0uDEvXA0.jpg",
-    "popularity": 152.4449
-  },
-  {
-    "tmdbId": 1294189,
-    "title": "The Mongoose",
-    "releaseDate": "2026-10-30",
-    "runtimeMin": 99,
-    "posterPath": "/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
-    "popularity": 139.4486
-  },
-  {
-    "tmdbId": 1153576,
-    "title": "Street Fighter",
-    "releaseDate": "2026-10-16",
-    "runtimeMin": 120,
-    "posterPath": "/ccxdepKqORLwccbzvO4eAGkN0IC.jpg",
-    "popularity": 116.5205
-  },
-  {
-    "tmdbId": 1465063,
-    "title": "Forgotten Island",
-    "releaseDate": "2026-09-25",
-    "runtimeMin": 109,
-    "posterPath": "/myd1K3gefdNAWFsGNRDdMeiK9Qg.jpg",
-    "popularity": 115.6275
+    "popularity": 197.3336
   }
 ]
