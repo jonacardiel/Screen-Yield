@@ -5,7 +5,7 @@
     "releaseDate": "2026-10-23",
     "runtimeMin": 132,
     "posterPath": "/8g7q6o54WfKWRmUQ0Ye8OskevUY.jpg",
-    "popularity": 1725.7447
+    "popularity": 1313.2444
   },
   {
     "tmdbId": 1283515,
@@ -13,6 +13,14 @@
     "releaseDate": "2026-10-02",
     "runtimeMin": 117,
     "posterPath": "/rmaNMA1seHqpjtnYKzyynFAr1g8.jpg",
-    "popularity": 235.311
+    "popularity": 218.0504
+  },
+  {
+    "tmdbId": 1294189,
+    "title": "The Mongoose",
+    "releaseDate": "2026-10-30",
+    "runtimeMin": 99,
+    "posterPath": "/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
+    "popularity": 150.7374
   }
 ]
