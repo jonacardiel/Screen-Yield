@@ -5,15 +5,7 @@
     "releaseDate": "2026-10-23",
     "runtimeMin": 132,
     "posterPath": "/snFM00mpNAfUzUtkdEW0uDEvXA0.jpg",
-    "popularity": 1088.2974
-  },
-  {
-    "tmdbId": 1283515,
-    "title": "Verity",
-    "releaseDate": "2026-10-02",
-    "runtimeMin": 117,
-    "posterPath": "/rmaNMA1seHqpjtnYKzyynFAr1g8.jpg",
-    "popularity": 205.4296
+    "popularity": 752.1366
   },
   {
     "tmdbId": 1294189,
@@ -21,6 +13,14 @@
     "releaseDate": "2026-10-30",
     "runtimeMin": 99,
     "posterPath": "/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
-    "popularity": 197.1989
+    "popularity": 219.4395
+  },
+  {
+    "tmdbId": 1283515,
+    "title": "Verity",
+    "releaseDate": "2026-10-02",
+    "runtimeMin": 117,
+    "posterPath": "/rmaNMA1seHqpjtnYKzyynFAr1g8.jpg",
+    "popularity": 192.4684
   }
 ]
