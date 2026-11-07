@@ -5,7 +5,7 @@
     "releaseDate": "2026-10-23",
     "runtimeMin": 132,
     "posterPath": "/snFM00mpNAfUzUtkdEW0uDEvXA0.jpg",
-    "popularity": 752.1366
+    "popularity": 441.8871
   },
   {
     "tmdbId": 1294189,
@@ -13,7 +13,7 @@
     "releaseDate": "2026-10-30",
     "runtimeMin": 99,
     "posterPath": "/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
-    "popularity": 219.4395
+    "popularity": 197.9624
   },
   {
     "tmdbId": 1283515,
@@ -21,6 +21,14 @@
     "releaseDate": "2026-10-02",
     "runtimeMin": 117,
     "posterPath": "/rmaNMA1seHqpjtnYKzyynFAr1g8.jpg",
-    "popularity": 192.4684
+    "popularity": 184.0988
+  },
+  {
+    "tmdbId": 1381071,
+    "title": "Godzilla Minus Zero",
+    "releaseDate": "2026-11-03",
+    "runtimeMin": 135,
+    "posterPath": "/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
+    "popularity": 145.9052
   }
 ]
