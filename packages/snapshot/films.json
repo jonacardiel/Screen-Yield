@@ -5,7 +5,7 @@
     "releaseDate": "2026-10-23",
     "runtimeMin": 132,
     "posterPath": "/snFM00mpNAfUzUtkdEW0uDEvXA0.jpg",
-    "popularity": 441.8871
+    "popularity": 303.6913
   },
   {
     "tmdbId": 1294189,
@@ -13,15 +13,7 @@
     "releaseDate": "2026-10-30",
     "runtimeMin": 99,
     "posterPath": "/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
-    "popularity": 197.9624
-  },
-  {
-    "tmdbId": 1283515,
-    "title": "Verity",
-    "releaseDate": "2026-10-02",
-    "runtimeMin": 117,
-    "posterPath": "/rmaNMA1seHqpjtnYKzyynFAr1g8.jpg",
-    "popularity": 184.0988
+    "popularity": 203.679
   },
   {
     "tmdbId": 1381071,
@@ -29,6 +21,22 @@
     "releaseDate": "2026-11-03",
     "runtimeMin": 135,
     "posterPath": "/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
-    "popularity": 145.9052
+    "popularity": 187.1271
+  },
+  {
+    "tmdbId": 1283515,
+    "title": "Verity",
+    "releaseDate": "2026-10-02",
+    "runtimeMin": 117,
+    "posterPath": "/rmaNMA1seHqpjtnYKzyynFAr1g8.jpg",
+    "popularity": 182.2259
+  },
+  {
+    "tmdbId": 1422041,
+    "title": "LA BOLA NEGRA",
+    "releaseDate": "2026-10-16",
+    "runtimeMin": 159,
+    "posterPath": "/jT5SR5qc9KvVg7HUEmjMWEUYMce.jpg",
+    "popularity": 143.0987
   }
 ]
