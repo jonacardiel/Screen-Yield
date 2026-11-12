@@ -1,11 +1,19 @@
 [
   {
+    "tmdbId": 1400837,
+    "title": "Other Mommy",
+    "releaseDate": "2026-10-09",
+    "runtimeMin": 93,
+    "posterPath": "/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+    "popularity": 226.3965
+  },
+  {
     "tmdbId": 1381071,
     "title": "Godzilla Minus Zero",
     "releaseDate": "2026-11-03",
     "runtimeMin": 135,
     "posterPath": "/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
-    "popularity": 204.8911
+    "popularity": 199.1007
   },
   {
     "tmdbId": 656908,
@@ -13,7 +21,7 @@
     "releaseDate": "2026-11-05",
     "runtimeMin": 201,
     "posterPath": "/dPrtk4iNf6T5w8fWfg4uxDDbJSW.jpg",
-    "popularity": 175.7388
+    "popularity": 171.4355
   },
   {
     "tmdbId": 1294189,
@@ -21,15 +29,7 @@
     "releaseDate": "2026-10-30",
     "runtimeMin": 99,
     "posterPath": "/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
-    "popularity": 172.0021
-  },
-  {
-    "tmdbId": 1400837,
-    "title": "Other Mommy",
-    "releaseDate": "2026-10-09",
-    "runtimeMin": 93,
-    "posterPath": "/kNxRgcTeqeU5jauBackTERoO2De.jpg",
-    "popularity": 156.3048
+    "popularity": 153.9857
   },
   {
     "tmdbId": 1422041,
@@ -37,6 +37,6 @@
     "releaseDate": "2026-10-16",
     "runtimeMin": 159,
     "posterPath": "/7HwFQTMghL6HOvzEnXYUvyuZXeh.jpg",
-    "popularity": 138.0458
+    "popularity": 135.5293
   }
 ]
