@@ -5,15 +5,7 @@
     "releaseDate": "2026-10-09",
     "runtimeMin": 93,
     "posterPath": "/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
-    "popularity": 399.9026
-  },
-  {
-    "tmdbId": 1381071,
-    "title": "Godzilla Minus Zero",
-    "releaseDate": "2026-11-03",
-    "runtimeMin": 135,
-    "posterPath": "/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
-    "popularity": 150.003
+    "popularity": 421.1806
   },
   {
     "tmdbId": 1294189,
@@ -21,7 +13,15 @@
     "releaseDate": "2026-10-30",
     "runtimeMin": 99,
     "posterPath": "/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
-    "popularity": 147.1068
+    "popularity": 139.143
+  },
+  {
+    "tmdbId": 1381071,
+    "title": "Godzilla Minus Zero",
+    "releaseDate": "2026-11-03",
+    "runtimeMin": 135,
+    "posterPath": "/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
+    "popularity": 137.0655
   },
   {
     "tmdbId": 1562642,
@@ -29,14 +29,14 @@
     "releaseDate": "2026-11-11",
     "runtimeMin": 90,
     "posterPath": "/8Y4oJ5iUs3hgPcDB3SIEmsNYjZk.jpg",
-    "popularity": 136.7263
+    "popularity": 135.9485
   },
   {
-    "tmdbId": 1422041,
-    "title": "La Bola Negra",
-    "releaseDate": "2026-10-16",
-    "runtimeMin": 159,
-    "posterPath": "/7HwFQTMghL6HOvzEnXYUvyuZXeh.jpg",
-    "popularity": 132.9566
+    "tmdbId": 1567605,
+    "title": "Ebenezer",
+    "releaseDate": "2026-11-13",
+    "runtimeMin": 115,
+    "posterPath": "/6H2N59jJW1hZEzn2ZdrMvJw5vNI.jpg",
+    "popularity": 129.6785
   }
 ]
