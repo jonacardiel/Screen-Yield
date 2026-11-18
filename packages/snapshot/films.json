@@ -1,19 +1,11 @@
 [
   {
-    "tmdbId": 1400837,
-    "title": "Other Mommy",
-    "releaseDate": "2026-10-09",
-    "runtimeMin": 93,
-    "posterPath": "/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
-    "popularity": 421.1806
-  },
-  {
     "tmdbId": 1294189,
     "title": "The Mongoose",
     "releaseDate": "2026-10-30",
     "runtimeMin": 99,
     "posterPath": "/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
-    "popularity": 139.143
+    "popularity": 141.8174
   },
   {
     "tmdbId": 1381071,
@@ -21,15 +13,7 @@
     "releaseDate": "2026-11-03",
     "runtimeMin": 135,
     "posterPath": "/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
-    "popularity": 137.0655
-  },
-  {
-    "tmdbId": 1562642,
-    "title": "Ghost Soldier",
-    "releaseDate": "2026-11-11",
-    "runtimeMin": 90,
-    "posterPath": "/8Y4oJ5iUs3hgPcDB3SIEmsNYjZk.jpg",
-    "popularity": 135.9485
+    "popularity": 137.676
   },
   {
     "tmdbId": 1567605,
@@ -37,6 +21,22 @@
     "releaseDate": "2026-11-13",
     "runtimeMin": 115,
     "posterPath": "/6H2N59jJW1hZEzn2ZdrMvJw5vNI.jpg",
-    "popularity": 129.6785
+    "popularity": 137.3574
+  },
+  {
+    "tmdbId": 656908,
+    "title": "Ramayana: Rise of a Legend",
+    "releaseDate": "2026-11-05",
+    "runtimeMin": 195,
+    "posterPath": "/vBQ7wks68OhJKlb3RnXSl2yXBXK.jpg",
+    "popularity": 137.197
+  },
+  {
+    "tmdbId": 1562642,
+    "title": "Ghost Soldier",
+    "releaseDate": "2026-11-11",
+    "runtimeMin": 90,
+    "posterPath": "/8Y4oJ5iUs3hgPcDB3SIEmsNYjZk.jpg",
+    "popularity": 133.4779
   }
 ]
