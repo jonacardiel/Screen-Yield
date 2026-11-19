@@ -1,27 +1,19 @@
 [
   {
+    "tmdbId": 1300968,
+    "title": "The Hunger Games: Sunrise on the Reaping",
+    "releaseDate": "2026-11-20",
+    "runtimeMin": 159,
+    "posterPath": "/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
+    "popularity": 172.8994
+  },
+  {
     "tmdbId": 1294189,
     "title": "The Mongoose",
     "releaseDate": "2026-10-30",
     "runtimeMin": 99,
     "posterPath": "/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
-    "popularity": 141.8174
-  },
-  {
-    "tmdbId": 1381071,
-    "title": "Godzilla Minus Zero",
-    "releaseDate": "2026-11-03",
-    "runtimeMin": 135,
-    "posterPath": "/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
-    "popularity": 137.676
-  },
-  {
-    "tmdbId": 1567605,
-    "title": "Ebenezer",
-    "releaseDate": "2026-11-13",
-    "runtimeMin": 115,
-    "posterPath": "/6H2N59jJW1hZEzn2ZdrMvJw5vNI.jpg",
-    "popularity": 137.3574
+    "popularity": 143.4056
   },
   {
     "tmdbId": 656908,
@@ -29,7 +21,23 @@
     "releaseDate": "2026-11-05",
     "runtimeMin": 195,
     "posterPath": "/vBQ7wks68OhJKlb3RnXSl2yXBXK.jpg",
-    "popularity": 137.197
+    "popularity": 139.8158
+  },
+  {
+    "tmdbId": 1567605,
+    "title": "Ebenezer",
+    "releaseDate": "2026-11-13",
+    "runtimeMin": 115,
+    "posterPath": "/6H2N59jJW1hZEzn2ZdrMvJw5vNI.jpg",
+    "popularity": 137.5158
+  },
+  {
+    "tmdbId": 1381071,
+    "title": "Godzilla Minus Zero",
+    "releaseDate": "2026-11-03",
+    "runtimeMin": 135,
+    "posterPath": "/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
+    "popularity": 136.0504
   },
   {
     "tmdbId": 1562642,
@@ -37,6 +45,6 @@
     "releaseDate": "2026-11-11",
     "runtimeMin": 90,
     "posterPath": "/8Y4oJ5iUs3hgPcDB3SIEmsNYjZk.jpg",
-    "popularity": 133.4779
+    "popularity": 135.83
   }
 ]
