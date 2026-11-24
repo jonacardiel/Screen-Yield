@@ -3,9 +3,9 @@
     "tmdbId": 1300968,
     "title": "The Hunger Games: Sunrise on the Reaping",
     "releaseDate": "2026-11-20",
-    "runtimeMin": 158,
-    "posterPath": "/nzIXSQNgYZwFOMrmv0d0I3ulvkM.jpg",
-    "popularity": 383.3057
+    "runtimeMin": 159,
+    "posterPath": "/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
+    "popularity": 385.9271
   },
   {
     "tmdbId": 1562642,
@@ -13,7 +13,7 @@
     "releaseDate": "2026-11-11",
     "runtimeMin": 90,
     "posterPath": "/8Y4oJ5iUs3hgPcDB3SIEmsNYjZk.jpg",
-    "popularity": 136.6453
+    "popularity": 119.0806
   },
   {
     "tmdbId": 656908,
@@ -21,7 +21,7 @@
     "releaseDate": "2026-11-05",
     "runtimeMin": 195,
     "posterPath": "/vBQ7wks68OhJKlb3RnXSl2yXBXK.jpg",
-    "popularity": 127.0293
+    "popularity": 113.3388
   },
   {
     "tmdbId": 1294189,
@@ -29,6 +29,6 @@
     "releaseDate": "2026-10-30",
     "runtimeMin": 99,
     "posterPath": "/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
-    "popularity": 124.1863
+    "popularity": 111.5825
   }
 ]
